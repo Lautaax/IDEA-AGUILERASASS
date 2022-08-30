@@ -1,0 +1,30 @@
+$grey: rgba(29, 27, 27, 0.593);
+$black: black;
+$fuente:Arial, Helvetica, sans-serif;
+$ancho:23%;
+$margen:1vh;
+$tamfuente:1.5vh;
+$borde:solid;
+$displey:flex;
+
+.galeria{
+    display:$displey;
+    flex-flow:wrap;
+    flex-direction: row;
+    justify-content: center;}
+
+.card__galery{
+            width:$ancho; 
+            margin: $margen;
+            border: $borde;
+            border-color:$grey ;
+        }
+
+        // Responsive mixins 
+        // Bootstrap breakpoints
+
+        @media (max-width: 768px) {
+            .card__galery{
+            width: 40%;
+            }
+            }

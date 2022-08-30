@@ -1,0 +1,19 @@
+.galeria {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card__galery {
+  width: 23%;
+  margin: 1vh;
+  border: solid;
+  border-color: rgba(29, 27, 27, 0.593);
+}
+
+@media (max-width: 768px) {
+  .card__galery {
+    width: 40%;
+  }
+}/*# sourceMappingURL=main.css.map */
